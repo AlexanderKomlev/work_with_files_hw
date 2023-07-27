@@ -8,7 +8,7 @@ with open('1.txt', encoding='utf-8') as f1, open('2.txt', encoding='utf-8') as f
     f1.seek(0)
     f2.seek(0)
     f3.seek(0)
-    # encoding='windows-1251'
+
     with open('result.txt', 'a') as result:
         for file in file_list:
             result.write(file['filename'])
